@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.xmind.ui.popupDialog">
+		<item value="231" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_HEIGHT"/>
+		<item value="730" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_Y_ORIGIN"/>
+		<item value="535" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_X_ORIGIN"/>
+		<item value="416" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_WIDTH"/>
+	</section>
+</section>
