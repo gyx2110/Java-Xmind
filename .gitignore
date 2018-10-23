@@ -3,7 +3,9 @@
 
 # Log file
 *.log
-
+*.configuration
+*.p2
+*.workspace
 # BlueJ files
 *.ctxt
 

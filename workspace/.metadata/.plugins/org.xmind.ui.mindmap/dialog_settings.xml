@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.xmind.ui.popupDialog">
+		<item value="250" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_HEIGHT"/>
+		<item value="350" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_WIDTH"/>
+		<item value="485" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_X_ORIGIN"/>
+		<item value="423" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_Y_ORIGIN"/>
+	</section>
+</section>
