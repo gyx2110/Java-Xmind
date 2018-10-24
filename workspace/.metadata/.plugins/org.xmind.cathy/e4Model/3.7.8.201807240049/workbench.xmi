@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList/>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_VsNygtcTEeiGXfkR089g6A" elementId="org.xmind.cathy.window.main" contributorURI="platform:/plugin/org.xmind.cathy" selectedElement="_XXyjgNcTEeiGXfkR089g6A" label="XMind" x="160" y="160" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_VsNygtcTEeiGXfkR089g6A" elementId="org.xmind.cathy.window.main" contributorURI="platform:/plugin/org.xmind.cathy" selectedElement="_XXyjgNcTEeiGXfkR089g6A" label="XMind" x="237" y="207" width="1024" height="768">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -11,7 +11,6 @@
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId"/>
     <tags>topLevel</tags>
-    <tags>shellMaximized</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_XXyjgNcTEeiGXfkR089g6A" selectedElement="_XXyjgdcTEeiGXfkR089g6A" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_XXyjgdcTEeiGXfkR089g6A" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_XbG9QNcTEeiGXfkR089g6A">
         <children xsi:type="advanced:Perspective" xmi:id="_XbG9QNcTEeiGXfkR089g6A" elementId="org.xmind.ui.perspective.mindmapping" selectedElement="_XbG9QdcTEeiGXfkR089g6A" label="&#x65b0;&#x5efa;&#x601d;&#x7ef4;&#x56fe;" iconURI="platform:/plugin/org.xmind.ui/icons/xmind.16.png">
@@ -22,6 +21,7 @@
               <tags>active</tags>
               <children xsi:type="basic:Part" xmi:id="_gjfeENcTEeiGXfkR089g6A" elementId="org.xmind.ui.modelPart.notes" contributorURI="platform:/plugin/org.xmind.ui.mindmap" toBeRendered="false" visible="false" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.NotesPart" label="%part.notes.label" tooltip="%part.notes.tooltip">
                 <tags>active</tags>
+                <tags>activeOnClose</tags>
               </children>
             </children>
           </children>
@@ -93,10 +93,14 @@
       <children xsi:type="menu:ToolBar" xmi:id="_QrzOwABcEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced" contributorURI="platform:/plugin/org.xmind.ui.menus.pro">
         <children xsi:type="menu:DirectToolItem" xmi:id="_OWU6QABeEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced.presentation" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.label" iconURI="platform:/plugin/org.xmind.ui.menus.pro/icons/toolbar/e/presentation.png" tooltip="%toolbar.advanced.presentation.tooltip" contributionURI="bundleclass://org.xmind.ui.presentation/org.xmind.ui.internal.e4handlers.ShowPresentationMenu">
           <menu xmi:id="_O-7LUABeEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced.presentation.menu" contributorURI="platform:/plugin/org.xmind.ui.menus.pro">
-            <children xsi:type="menu:HandledMenuItem" xmi:id="_fLjUsACPEeaVscD3FeymkQ" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.walkthrough" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.walkthrough.label" command="_aFkFkAB_EeandKuYdHFr7Q"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_fLjUsACPEeaVscD3FeymkQ" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.walkthrough" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.walkthrough.label">
+              <command href="platform:/plugin/org.xmind.ui.menus.pro/fragment.e4xmi#_aFkFkAB_EeandKuYdHFr7Q"/>
+            </children>
             <children xsi:type="menu:MenuSeparator" xmi:id="_N2BzUACPEeaVscD3FeymkQ" elementId="start" contributorURI="platform:/plugin/org.xmind.ui.menus.pro"/>
             <children xsi:type="menu:DynamicMenuContribution" xmi:id="_QDSyYABeEeandKuYdHFr7Q" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.stories" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" contributionURI="bundleclass://org.xmind.ui.presentation/org.xmind.ui.internal.presentation.slide.StoryMenu"/>
-            <children xsi:type="menu:HandledMenuItem" xmi:id="_OyipcACQEeaVscD3FeymkQ" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.newstory" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.newstory.label" command="_DoiZsACREeaVscD3FeymkQ"/>
+            <children xsi:type="menu:HandledMenuItem" xmi:id="_OyipcACQEeaVscD3FeymkQ" elementId="org.xmind.ui.toolbar.advanced.presentation.menu.newstory" contributorURI="platform:/plugin/org.xmind.ui.menus.pro" label="%toolbar.advanced.presentation.newstory.label">
+              <command href="platform:/plugin/org.xmind.ui.menus.pro/fragment.e4xmi#_DoiZsACREeaVscD3FeymkQ"/>
+            </children>
           </menu>
         </children>
       </children>
@@ -403,11 +407,11 @@
   </descriptors>
   <descriptors xmi:id="_W8IhYETZEeaGL5Gu2uBiyA" elementId="org.xmind.ui.modelPart.image" contributorURI="platform:/plugin/org.xmind.ui.mindmap" label="%part.image.label" tooltip="%part.image.tooltip" closeable="true" contributionURI="bundleclass://org.xmind.ui.mindmap/org.xmind.ui.internal.e4models.ImagePart">
     <persistedState key="modelPart.pages.contributionUri" value="bundleclass://org.xmind.ui.gallery/org.xmind.ui.internal.gallery.ClipArtModelPage,bundleclass://org.xmind.ui.iconfinder/org.xmind.ui.internal.iconfinder.IconfinderModelPage"/>
-    <menus xmi:id="_WAEioNcTEeiGXfkR089g6A" elementId="org.xmind.ui.modelPart.image.menus.clipArt">
+    <menus xmi:id="_UaquMdfbEeidoPd_eMa5dQ" elementId="org.xmind.ui.modelPart.image.menus.clipArt">
       <tags>ViewMenu</tags>
       <tags>org.xmind.ui.modelPart.image.pages.clipArt</tags>
     </menus>
-    <menus xmi:id="_WDfqENcTEeiGXfkR089g6A" elementId="org.xmind.ui.modelPart.image.menus.iconfinder">
+    <menus xmi:id="_UayqANfbEeidoPd_eMa5dQ" elementId="org.xmind.ui.modelPart.image.menus.iconfinder">
       <tags>ViewMenu</tags>
       <tags>org.xmind.ui.modelPart.image.pages.iconfinder</tags>
     </menus>

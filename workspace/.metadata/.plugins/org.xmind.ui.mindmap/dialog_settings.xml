@@ -2,8 +2,12 @@
 <section name="Workbench">
 	<section name="org.xmind.ui.popupDialog">
 		<item value="250" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_HEIGHT"/>
+		<item value="231" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_HEIGHT"/>
 		<item value="350" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_WIDTH"/>
-		<item value="485" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_X_ORIGIN"/>
-		<item value="423" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_Y_ORIGIN"/>
+		<item value="634" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_X_ORIGIN"/>
+		<item value="626" key="org.xmind.ui.internal.comments.CommentsPopupDIALOG_Y_ORIGIN"/>
+		<item value="700" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_Y_ORIGIN"/>
+		<item value="479" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_X_ORIGIN"/>
+		<item value="416" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_WIDTH"/>
 	</section>
 </section>
